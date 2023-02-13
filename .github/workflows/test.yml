@@ -1,0 +1,24 @@
+name: Test
+
+on:
+  pull_request:
+
+jobs:
+  run-tests:
+    name: Run tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3'
+
+      - name: Install Vale
+        run: sudo snap install --edge vale
+
+      - name: Install Ruby packages
+        run: bundle install
+
+      - name: Run tests
+        run: bundle exec cucumber
