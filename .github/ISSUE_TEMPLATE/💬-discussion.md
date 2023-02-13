@@ -1,5 +1,5 @@
 ---
-name: Discussion
+name: "\U0001F4AC Discussion"
 about: discuss or suggest style guidelines
 title: ''
 labels: discussion

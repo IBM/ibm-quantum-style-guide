@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: for false positives / negatives
+name: "\U0001F6A8 Bug report"
+about: a rule is causing false positives / negatives
 title: ''
 labels: bug
 assignees: frankharkins

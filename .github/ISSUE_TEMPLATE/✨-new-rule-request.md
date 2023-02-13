@@ -1,5 +1,5 @@
 ---
-name: New rule request
+name: "✨ New rule request"
 about: ask to test for an agreed-upon rule
 title: ''
 labels: request
