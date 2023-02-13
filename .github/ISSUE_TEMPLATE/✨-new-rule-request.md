@@ -21,6 +21,12 @@ for. Please include a link to the place this was
 agreed upon
 -->
 
+**Severity**
+
+<!-- Choose one of the following -->
+
+Error / Warning / Suggestion
+
 **Examples**
 
 Good:
@@ -30,3 +36,7 @@ Good:
 Bad:
 
 > Add some content that does _not_ conform to this guideline
+
+**Additional info**
+
+<!-- Include anything else we should consider -->
