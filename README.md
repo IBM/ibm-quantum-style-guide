@@ -1,41 +1,51 @@
-# IBM
-A Vale-compatible implementation of [IBM's Developer Editorial Style Guide](https://www.ibm.com/developerworks/library/styleguidelines/index.html).
+# IBM Quantum style guide
 
-## Getting Started
+This repo contains [Vale](https://vale.sh)-compatible rules implementing the
+IBM Quantum style guide. Use these rules with Vale to help keep your writing
+consistent with our style suggestions.
 
-> :exclamation: IBM requires Vale >= **1.7.0**. :exclamation:
 
-Download the [latest release](https://github.com/errata-ai/IBM/releases), copy the "IBM" directory to your `StylesPath`, and include it in your configuration file:
+## Getting started
+
+Download the [latest
+release](https://github.com/IBM/ibm-quantum-style-guide), copy the
+"IBMQuantum" directory to your `StylesPath`, and include it in your configuration
+file:
 
 ```ini
 # This goes in a file named either `.vale.ini` or `_vale.ini`.
 StylesPath = path/to/some/directory
-MinAlertLevel = warning # suggestion, warning or error
+MinAlertLevel = suggestion  # suggestion, warning or error
 
-# Only Markdown and .txt files; change to whatever you're using.
-[*.{md,txt}]
-# List of styles to load.
-BasedOnStyles = IBM
+[*.md]
+BasedOnStyles = IBMQuantum
 ```
 
-See [Usage](https://github.com/errata-ai/vale/#usage) for more information.
+See Vale's [usage docs](https://github.com/errata-ai/vale/#usage) for more
+information.
 
-## Repository Structure
+You can test notebooks using [nbQA](https://github.com/nbQA-dev/nbQA) with the
+following command:
 
-<dl>
-  <dt><a href="https://github.com/errata-ai/IBM/tree/master/IBM"><code>/IBM</code></a></dt>
-  <dd>The <a href="http://yaml.org/">YAML</a>-based rule implementations that make up our style.</dd>
+```bash
+nbqa vale <path-to-notebook> --nbqa-shell --nbqa-md
+```
 
-  <dt><a href="https://github.com/errata-ai/IBM/tree/master/fixtures"><code>/fixtures</code></a></dt>
-  <dd>The individual unit tests. Each directory should be named after a rule found in <code>/Microsoft</code> and include its own <code>.vale.ini</code> file that isolates its target rule.</dd>
 
-  <dt><a href="https://github.com/errata-ai/IBM/tree/master/features"><code>/features</code></a></dt>
-  <dd>The <a href="https://docs.cucumber.io/cucumber/step-definitions/">Cucumber Step Definitions</a> we use to test our fixtures. Essentially, we use the <a href="https://github.com/cucumber/aruba">aruba</a> framework to test Vale's output after running it on each of our fixture directories.</dd>
-</dl>
+## Ignoring rules
 
-## Extension Points
+If you find a false positive, please make an issue. If the rule is working
+correctly but you still want to disable it, you can turn specific rules off for
+sections of text using these comments:
 
-|   Check    |                    Implementation(s)                   |
-|:------------:|:---------------------------------------------------:|
-| [`existence`](https://errata-ai.github.io/vale/styles/#existence)  | [`Terms.yml`](https://github.com/errata-ai/IBM/blob/master/IBM/Terms.yml) |
-| [`substitution`](https://errata-ai.github.io/vale/styles/#substitution)  | [`Checkusage.yml`](https://github.com/errata-ai/Microsoft/blob/master/Microsoft/Checkusage.yml) |
+```md
+<!-- vale IBM.RuleName = NO -->
+
+This text will not trigger RuleName
+
+<!-- vale IBM.RuleName = YES -->
+```
+
+___
+
+> This repo is a fork of [errata-ai/IBM](https://github.com/errata-ai/IBM).
