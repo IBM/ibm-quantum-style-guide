@@ -39,7 +39,7 @@ If the rule is working correctly but you still want
 to disable it, you can turn specific rules off for
 sections of text using these comments:
 
-```md
+```markdown
 <!-- vale IBM.RuleName = NO -->
 
 This text will not trigger RuleName
