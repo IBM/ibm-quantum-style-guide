@@ -8,7 +8,7 @@ consistent with our style suggestions.
 ## Getting started
 
 Download the [latest
-release](https://github.com/IBM/ibm-quantum-style-guide), copy the
+release](https://github.com/IBM/ibm-quantum-style-guide/releases/), copy the
 "IBMQuantum" directory to your `StylesPath`, and include it in your configuration
 file:
 
