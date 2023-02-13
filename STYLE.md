@@ -2,7 +2,7 @@
 
 ## Latin abbreviations
 
-> Rule: `IBMQuantum.Latin`
+> Rule: [`IBMQuantum.Latin`](https://github.com/IBM/ibm-quantum-style-guide/blob/main/IBMQuantum/Latin.yml)
 
 Switch out latin abbreviations for plain english. For example:
 
