@@ -34,8 +34,9 @@ nbqa vale <path-to-notebook> --nbqa-shell --nbqa-md
 
 ## Ignoring rules
 
-If you find a false positive, please make an issue. If the rule is working
-correctly but you still want to disable it, you can turn specific rules off for
+If you find a false positive, please [make an issue](https://github.com/IBM/ibm-quantum-style-guide/issues/new/choose).
+If the rule is working correctly but you still want
+to disable it, you can turn specific rules off for
 sections of text using these comments:
 
 ```md
