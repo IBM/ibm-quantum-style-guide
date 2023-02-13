@@ -4,7 +4,7 @@ Feature: Rules
         When I test "Terms"
         Then the output should contain exactly:
         """
-        test.md:3:13:IBM.Terms:Consider using 'lower left or lower-left' instead of 'bottom-left'
+        test.md:3:13:IBM.Terms:Consider using 'lower left' or 'lower-left' instead of 'bottom-left'
         test.md:5:11:IBM.Terms:Consider using 'several' instead of 'a number of'
         """
 
