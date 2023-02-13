@@ -40,11 +40,11 @@ to disable it, you can turn specific rules off for
 sections of text using these comments:
 
 ```markdown
-<!-- vale IBM.RuleName = NO -->
+<!-- vale IBMQuantum.RuleName = NO -->
 
 This text will not trigger RuleName
 
-<!-- vale IBM.RuleName = YES -->
+<!-- vale IBMQuantum.RuleName = YES -->
 ```
 
 ___
