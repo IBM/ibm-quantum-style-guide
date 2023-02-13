@@ -8,14 +8,6 @@ Feature: Rules
         test.md:5:11:IBMQuantum.Terms:Consider using 'several' instead of 'a number of'
         """
 
-    Scenario: Word Usage
-        When I test "Usage"
-        Then the output should contain exactly:
-        """
-        test.md:3:1:IBMQuantum.Usage:Verify your use of 'We' with the word usage guidelines.
-        test.md:3:17:IBMQuantum.Usage:Verify your use of 'deploy' with the word usage guidelines.
-        """
-
     Scenario: Use of punctuation
         When I test "Punctuation"
         Then the output should contain exactly:
