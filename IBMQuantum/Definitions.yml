@@ -27,12 +27,14 @@ exceptions:
   - HTML
   - HTTP
   - HTTPS
+  - IBM
   - IDE
   - JAR
   - JSON
   - JSX
   - LESS
   - LLDB
+  - NBQA
   - NET
   - NOTE
   - NVDA
