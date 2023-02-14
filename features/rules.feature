@@ -4,8 +4,8 @@ Feature: Rules
         When I test "Terms"
         Then the output should contain exactly:
         """
-        test.md:3:13:IBMQuantum.Terms:Consider using 'lower left' or 'lower-left' instead of 'bottom-left'
-        test.md:5:11:IBMQuantum.Terms:Consider using 'several' instead of 'a number of'
+        test.md:3:13:IBMQuantum.Terms:Use 'lower left' or 'lower-left' rather than 'bottom-left'
+        test.md:5:11:IBMQuantum.Terms:Use 'several' rather than 'a number of'
         """
 
     Scenario: Use of punctuation
