@@ -3,3 +3,7 @@
 Look at the bottom-left of your screen.
 
 There are a number of options.
+
+We then do amplitude amplification.
+
+Make sure you do not transpile the circuit.

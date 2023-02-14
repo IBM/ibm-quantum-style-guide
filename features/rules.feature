@@ -6,6 +6,7 @@ Feature: Rules
         """
         test.md:3:13:IBMQuantum.Terms:Use 'lower left' or 'lower-left' rather than 'bottom-left'
         test.md:5:11:IBMQuantum.Terms:Use 'several' rather than 'a number of'
+        test.md:7:9:IBMQuantum.Terms:Use 'complete' or 'perform' rather than 'do'
         """
 
     Scenario: Use of punctuation

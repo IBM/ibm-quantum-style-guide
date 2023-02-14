@@ -19,6 +19,7 @@ swap:
   'sort(?:-|/)?merge': sort|merge
   'top(?:-)?left': upper left|upper right|upper-left|upper-right
   'top(?:-)?right': upper left|upper right|upper-left|upper-right
+  'do(?: )(?!not)': complete|perform
 
   # These are currenly invalid patterns.
   #
@@ -69,7 +70,6 @@ swap:
   desire: want|required
   destroy: delete from the database
   dismount: demount|unmount|remove
-  do: complete|perform
   downgrade: upgrade|fallback|fall back|rollback|roll back
   downward compatible: compatible with earlier versions
   drag and drop: drag
