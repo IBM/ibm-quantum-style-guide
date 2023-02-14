@@ -3,7 +3,7 @@ name: "\U0001F4AC Discussion"
 about: discuss or suggest style guidelines
 title: ''
 labels: discussion
-assignees: ''
+assignees: abbycross, beckykd, frankharkins, jyirinec
 
 ---
 
