@@ -47,6 +47,12 @@ This text will not trigger RuleName
 <!-- vale IBMQuantum.RuleName = YES -->
 ```
 
+
+## Keeping up to date
+
+To have GitHub notify you on new releases, from [the repo page](github.com/IBM/ibm-quantum-style-guide) click "Watch" in the top-right corner. Then choose "custom > releases".
+
+
 ___
 
 > This repo is a fork of [errata-ai/IBM](https://github.com/errata-ai/IBM).
