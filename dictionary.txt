@@ -49,6 +49,7 @@ Griffiths
 Gutmann
 Hadamard
 Haide
+Hamiltonian
 Hamiltonians
 Hartmut
 Hartree
