@@ -1,7 +1,7 @@
 extends: substitution
-message: Consider using '%s' instead of '%s'
+message: Use '%s' rather than '%s'
 link: 'https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist'
-level: error
+level: warning
 ignorecase: true
 action:
   name: replace
@@ -110,7 +110,6 @@ swap:
   irrecoverable: unrecoverable
   jar: compress|archive
   keep in mind: remember
-  key: type|press
   laptop: notebook
   launch: start|open
   left-hand: left
