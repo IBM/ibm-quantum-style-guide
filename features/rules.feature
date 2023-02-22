@@ -6,7 +6,8 @@ Feature: Rules
         """
         test.md:3:13:IBMQuantum.Terms:Use 'lower left' or 'lower-left' rather than 'bottom-left'
         test.md:5:11:IBMQuantum.Terms:Use 'several' rather than 'a number of'
-        test.md:7:10:IBMQuantum.Spelling:Unknown word 'algorihm'; fix or add to dictionary.
+        test.md:7:9:IBMQuantum.Terms:Use 'complete' or 'perform' rather than 'do'
+        test.md:11:10:IBMQuantum.Spelling:Unknown word 'algorihm'; fix or add to dictionary.
         """
 
     Scenario: Use of punctuation
