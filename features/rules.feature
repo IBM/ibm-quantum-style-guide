@@ -8,6 +8,8 @@ Feature: Rules
         test.md:5:11:IBMQuantum.Terms:Use 'several' rather than 'a number of'
         test.md:7:9:IBMQuantum.Terms:Use 'complete' or 'perform' rather than 'do'
         test.md:11:10:IBMQuantum.Spelling:Unknown word 'algorihm'; fix or add to dictionary.
+        test.md:17:29:IBMQuantum.However:Double check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
+        test.md:21:16:IBMQuantum.However:Double check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         """
 
     Scenario: Use of punctuation
