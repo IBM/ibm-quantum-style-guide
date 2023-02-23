@@ -11,3 +11,5 @@ Make sure you do not transpile the circuit.
 Grover's algorihm is a type of search algorithm.
 
 You must transpile the circuit.
+
+Refer to the code cell below.
