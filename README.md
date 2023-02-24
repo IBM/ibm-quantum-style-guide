@@ -24,6 +24,10 @@ BasedOnStyles = IBMQuantum
 See Vale's [usage docs](https://github.com/errata-ai/vale/#usage) for more
 information.
 
+> ℹ️ If you work with reStructuredText, make sure
+> [`docutils`](https://docutils.sourceforge.io/) is installed and `rst2html` is
+> on your `PATH`.
+
 You can test notebooks using [nbQA](https://github.com/nbQA-dev/nbQA) with the
 following command:
 
