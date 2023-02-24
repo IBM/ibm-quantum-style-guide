@@ -8,12 +8,21 @@ indicators:
   - ':'
   - '.'
 exceptions:
+  - API
+  - App ID
   - IBM
   - IBM Quantum
   - Qiskit
   - Runtime
+  - qiskit-ibm-runtime API reference
   - Sampler
   - Estimator
   - Terraform
+  - Trotter
+  - Grover
+  - Hamiltonian
+  - Hamiltonians
   - Cloud
+  - Spectroscopic Eigensolver Algorithm
+  - Variational Quantum Eigensolver
   - (\d+)\. 

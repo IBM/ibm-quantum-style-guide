@@ -12,6 +12,7 @@ exceptions:
   - ASP
   - CLI
   - CPU
+  - CNOT
   - CSS
   - CSV
   - DEBUG
@@ -43,6 +44,7 @@ exceptions:
   - PDF
   - PHP
   - POST
+  - QPU
   - RAM
   - REPL
   - RSA

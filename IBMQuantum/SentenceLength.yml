@@ -4,4 +4,5 @@ link: 'https://www.ibm.com/developerworks/library/styleguidelines/index.html#N10
 scope: sentence
 level: suggestion
 max: 25
+limit: 1
 token: \b(\w+)\b
