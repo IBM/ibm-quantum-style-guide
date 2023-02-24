@@ -19,7 +19,7 @@ swap:
   'sort(?:-|/)?merge': sort|merge
   'top(?:-)?left': upper left|upper right|upper-left|upper-right
   'top(?:-)?right': upper left|upper right|upper-left|upper-right
-  'do(?: )(?!not)': complete|perform
+  'do(?: )(?!not|so)': complete|perform
 
   # These are currenly invalid patterns.
   #
@@ -110,7 +110,6 @@ swap:
   irrecoverable: unrecoverable
   jar: compress|archive
   keep in mind: remember
-  laptop: notebook
   launch: start|open
   left-hand: left
   let's: let us
@@ -137,7 +136,6 @@ swap:
   parent task: parent process
   patch: fix|test fix|interim fix|fix pack|program temporary fix
   perimeter network: DMZ
-  phone: telephone|cell phone|mobile phone
   power down: turn on|turn off
   power off: turn on|turn off
   power on: turn on|turn off
@@ -185,7 +183,6 @@ swap:
   unzip: unzip
   upward compatible: compatible with later versions
   utilize: use
-  version: create a version|assign a version number
   versus: compared to
   via: through
   warning notice: attention notice
