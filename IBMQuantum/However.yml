@@ -1,5 +1,5 @@
 extends: existence
-message: Double check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
+message: Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
 level: suggestion
 code: false
 ignorecase: true
