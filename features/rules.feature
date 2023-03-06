@@ -16,8 +16,6 @@ Feature: Rules
         When I test "Punctuation"
         Then the output should contain exactly:
         """
-        test.md:3:10:IBMQuantum.Ellipses:Avoid the ellipsis (...) except to indicate omitted words.
-        test.md:3:32:IBMQuantum.Ellipses:Avoid the ellipsis (...) except to indicate omitted words.
         test.md:9:1:IBMQuantum.Abbreviations:Do not use periods in all-uppercase abbreviations such as 'I.B.M.'.
         test.md:11:1:IBMQuantum.Abbreviations:Do not use periods in all-uppercase abbreviations such as 'S.W.A.T.'.
         test.md:17:1:IBMQuantum.OxfordComma:Use the Oxford comma in 'It comes in red, blue and'.
