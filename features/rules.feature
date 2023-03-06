@@ -11,6 +11,7 @@ Feature: Rules
         test.md:15:24:IBMQuantum.Terms:Use 'following' rather than 'below'
         test.md:19:29:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         test.md:23:16:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
+        test.md:25:1:IBMQuantum.Politeness:Don't use 'Please'
         """
 
     Scenario: Use of punctuation

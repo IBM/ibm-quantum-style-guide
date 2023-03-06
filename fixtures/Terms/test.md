@@ -21,3 +21,5 @@ This sentence is incorrect, however it is a common mistake.
 Our rules should not, however, match this sentence.
 
 This sentence is however, bad.
+
+Please do not be too polite in your technical writing.
