@@ -10,25 +10,17 @@ swap:
   '(?:Ctrl|control)-click': press Ctrl and click
   'a lot(?: of)?': many|much
   'backward(?:-)?compatible': compatible with earlier versions
-  'bottom(?:-)?left': lower left|lower-left
-  'bottom(?:-)?right': lower right|lower-right
   'down(?:-)?level': earlier|previous|not at the latest level
   'mash(?: )?up': create
   'pop-up (?:blocker|killer)': software to block pop-up ad windows
   're(?:-)?occur': recur
   'sort(?:-|/)?merge': sort|merge
-  'top(?:-)?left': upper left|upper right|upper-left|upper-right
-  'top(?:-)?right': upper left|upper right|upper-left|upper-right
   'do(?: )(?!not|so)': complete|perform
 
-  # These are currenly invalid patterns.
-  #
-  # dismiss (a window, a dialog box): close
-  # position (a cursor): move
-  # spawn (a process): create
-  # strike (a key): press|type
-  # touch (a key): press|type
-
+  bottom: end|last
+  below: following
+  above: previous
+  top: start|beginning|first
   a number of: several
   abort: cancel|stop
   administrate: administer
