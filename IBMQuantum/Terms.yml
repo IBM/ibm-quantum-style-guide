@@ -15,7 +15,7 @@ swap:
   'pop-up (?:blocker|killer)': software to block pop-up ad windows
   're(?:-)?occur': recur
   'sort(?:-|/)?merge': sort|merge
-  'do(?: )(?!not)': complete|perform
+  'do(?: )(?!not|so)': complete|perform
 
   bottom: end|last
   below: following
@@ -102,10 +102,8 @@ swap:
   irrecoverable: unrecoverable
   jar: compress|archive
   keep in mind: remember
-  laptop: notebook
   launch: start|open
   left-hand: left
-  let's: let us
   leverage: use
   line cord: power cable|power cord
   main directory: root directory
@@ -129,7 +127,6 @@ swap:
   parent task: parent process
   patch: fix|test fix|interim fix|fix pack|program temporary fix
   perimeter network: DMZ
-  phone: telephone|cell phone|mobile phone
   power down: turn on|turn off
   power off: turn on|turn off
   power on: turn on|turn off
@@ -177,7 +174,6 @@ swap:
   unzip: unzip
   upward compatible: compatible with later versions
   utilize: use
-  version: create a version|assign a version number
   versus: compared to
   via: through
   warning notice: attention notice

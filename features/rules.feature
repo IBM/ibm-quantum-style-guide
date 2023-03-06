@@ -9,14 +9,14 @@ Feature: Rules
         test.md:7:9:IBMQuantum.Terms:Use 'complete' or 'perform' rather than 'do'
         test.md:11:10:IBMQuantum.Spelling:Unknown word 'algorihm'; fix or add to dictionary.
         test.md:15:24:IBMQuantum.Terms:Use 'following' rather than 'below'
+        test.md:19:29:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
+        test.md:23:16:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         """
 
     Scenario: Use of punctuation
         When I test "Punctuation"
         Then the output should contain exactly:
         """
-        test.md:3:10:IBMQuantum.Ellipses:Avoid the ellipsis (...) except to indicate omitted words.
-        test.md:3:32:IBMQuantum.Ellipses:Avoid the ellipsis (...) except to indicate omitted words.
         test.md:9:1:IBMQuantum.Abbreviations:Do not use periods in all-uppercase abbreviations such as 'I.B.M.'.
         test.md:11:1:IBMQuantum.Abbreviations:Do not use periods in all-uppercase abbreviations such as 'S.W.A.T.'.
         test.md:17:1:IBMQuantum.OxfordComma:Use the Oxford comma in 'It comes in red, blue and'.
