@@ -10,6 +10,7 @@ Feature: Rules
         test.md:11:10:IBMQuantum.Spelling:Unknown word 'algorihm'; fix or add to dictionary.
         test.md:17:29:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         test.md:21:16:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
+        test.md:23:1:IBMQuantum.Politeness:Don't use 'Please'
         """
 
     Scenario: Use of punctuation
