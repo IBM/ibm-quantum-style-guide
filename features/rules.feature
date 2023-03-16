@@ -24,6 +24,8 @@ Feature: Rules
         test.md:23:14:IBMQuantum.DashSpacing:Add spaces around the dash in 'a—w'.
         test.md:31:22:IBMQuantum.ListPunctuation:Remove punctuation from lists (…comma,)
         test.md:32:24:IBMQuantum.ListPunctuation:Remove punctuation from lists (…period.)
+        test.md:37:8:IBMQuantum.DisplayEquationPunctuation:Remove commas or periods after display equations.
+        test.md:41:8:IBMQuantum.DisplayEquationPunctuation:Remove commas or periods after display equations.
         """
 
     Scenario: Use of Latin abbreviations

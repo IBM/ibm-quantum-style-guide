@@ -30,3 +30,13 @@ The following list breaks the rules as it
 
 - ends a bullet with comma,
 * ends a bullet with a period.
+
+
+The following display equation ends with some punctuation, which looks weird
+
+$$ x^2 $$,
+
+as does the following equation
+
+\[ x^4 \]
+.
