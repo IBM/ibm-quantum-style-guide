@@ -23,3 +23,10 @@ Use the mdash (`<mdash/>`) to signal a brief and relevant detour in thought. Kee
 Here's an idea—we should use spaces around dashes.
 
 Here's an idea — we should use spaces around dashes.
+
+## Implicit punctuation
+
+The following list breaks the rules as it
+
+- ends a bullet with comma,
+* ends a bullet with a period.
