@@ -23,3 +23,5 @@ Our rules should not, however, match this sentence.
 This sentence is however, bad.
 
 Please do not be too polite in your technical writing.
+
+We understand that you may want to utilize these phrases when writing for end users, but we encourage you not to.
