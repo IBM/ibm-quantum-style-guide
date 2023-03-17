@@ -23,3 +23,7 @@ Our rules should not, however, match this sentence.
 This sentence is however, bad.
 
 Please do not be too polite in your technical writing.
+
+This is a [link](www.ibm.com) to IBM's site.
+
+Check out this link to the [IBM website](www.ibm.com).

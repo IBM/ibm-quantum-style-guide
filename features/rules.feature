@@ -12,6 +12,7 @@ Feature: Rules
         test.md:19:29:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         test.md:23:16:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         test.md:25:1:IBMQuantum.Politeness:Don't use 'Please'
+        test.md:27:12:IBMQuantum.Links:Link names should make sense without context; change "link" to something more descriptive.
         """
 
     Scenario: Use of punctuation
