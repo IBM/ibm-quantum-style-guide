@@ -28,8 +28,8 @@ Here's an idea — we should use spaces around dashes.
 
 The following list breaks the rules as it
 
-- ends a bullet with comma,
-* ends a bullet with a period.
+- ends a bullet with a comma,
+
 
 
 The following display equation ends with some punctuation, which looks weird

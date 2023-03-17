@@ -1,7 +1,7 @@
 extends: existence
-message: "Remove punctuation from lists (…%s)"
+message: "Remove commas at end of list items (…%s)"
 link: "https://github.com/IBM/ibm-quantum-style-guide/issues/22"
 level: warning
 scope: list
 raw:
-  - '(\w*?)[,.](\s*?)$'
+  - '(\w*?),(\s*?)$'

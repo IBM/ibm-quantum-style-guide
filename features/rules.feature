@@ -22,8 +22,7 @@ Feature: Rules
         test.md:11:1:IBMQuantum.Abbreviations:Do not use periods in all-uppercase abbreviations such as 'S.W.A.T.'.
         test.md:17:1:IBMQuantum.OxfordComma:Use the Oxford comma in 'It comes in red, blue and'.
         test.md:23:14:IBMQuantum.DashSpacing:Add spaces around the dash in 'a—w'.
-        test.md:31:22:IBMQuantum.ListPunctuation:Remove punctuation from lists (…comma,)
-        test.md:32:24:IBMQuantum.ListPunctuation:Remove punctuation from lists (…period.)
+        test.md:31:24:IBMQuantum.ListPunctuation:Remove commas at end of list items (…comma,)
         test.md:37:8:IBMQuantum.DisplayEquationPunctuation:Remove commas or periods after display equations.
         test.md:41:8:IBMQuantum.DisplayEquationPunctuation:Remove commas or periods after display equations.
         """
