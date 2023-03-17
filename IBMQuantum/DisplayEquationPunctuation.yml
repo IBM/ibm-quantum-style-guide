@@ -1,7 +1,0 @@
-extends: existence
-message: "Remove commas or periods after display equations."
-link: "https://github.com/IBM/ibm-quantum-style-guide/issues/22"
-level: warning
-scope: raw
-raw:
-  - '(\\\]|\$\$)(\s*?)[,.]'

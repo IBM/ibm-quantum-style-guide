@@ -23,8 +23,6 @@ Feature: Rules
         test.md:17:1:IBMQuantum.OxfordComma:Use the Oxford comma in 'It comes in red, blue and'.
         test.md:23:14:IBMQuantum.DashSpacing:Add spaces around the dash in 'a—w'.
         test.md:31:24:IBMQuantum.ListPunctuation:Remove commas at end of list items (…comma,)
-        test.md:37:8:IBMQuantum.DisplayEquationPunctuation:Remove commas or periods after display equations.
-        test.md:41:8:IBMQuantum.DisplayEquationPunctuation:Remove commas or periods after display equations.
         """
 
     Scenario: Use of Latin abbreviations
