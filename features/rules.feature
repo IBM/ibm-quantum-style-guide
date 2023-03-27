@@ -12,6 +12,10 @@ Feature: Rules
         test.md:19:29:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         test.md:23:16:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         test.md:25:1:IBMQuantum.Politeness:Don't use 'Please'
+        test.md:27:1:IBMQuantum.CringeWords:Don't use 'We understand that'
+        test.md:27:36:IBMQuantum.Terms:Use 'use' rather than 'utilize'
+        test.md:27:75:IBMQuantum.CringeWords:Don't use 'end users'
+        test.md:27:90:IBMQuantum.CringeWords:Don't use 'we encourage you'
         """
 
     Scenario: Use of punctuation
