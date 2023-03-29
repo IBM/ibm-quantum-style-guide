@@ -12,7 +12,11 @@ Feature: Rules
         test.md:19:29:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         test.md:23:16:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         test.md:25:1:IBMQuantum.Politeness:Don't use 'Please'
-        test.md:27:12:IBMQuantum.Links:Link names should make sense without context; change "link" to something more descriptive.
+        test.md:27:1:IBMQuantum.CringeWords:Don't use 'We understand that'
+        test.md:27:36:IBMQuantum.Terms:Use 'use' rather than 'utilize'
+        test.md:27:75:IBMQuantum.CringeWords:Don't use 'end users'
+        test.md:27:90:IBMQuantum.CringeWords:Don't use 'we encourage you'
+        test.md:29:12:IBMQuantum.Links:Link names should make sense without context; change "link" to something more descriptive.
         """
 
     Scenario: Use of punctuation
@@ -23,6 +27,7 @@ Feature: Rules
         test.md:11:1:IBMQuantum.Abbreviations:Do not use periods in all-uppercase abbreviations such as 'S.W.A.T.'.
         test.md:17:1:IBMQuantum.OxfordComma:Use the Oxford comma in 'It comes in red, blue and'.
         test.md:23:14:IBMQuantum.DashSpacing:Add spaces around the dash in 'a—w'.
+        test.md:31:24:IBMQuantum.ListPunctuation:Remove commas at end of list items (…comma,)
         """
 
     Scenario: Use of Latin abbreviations
