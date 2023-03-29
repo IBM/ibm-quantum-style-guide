@@ -25,3 +25,7 @@ This sentence is however, bad.
 Please do not be too polite in your technical writing.
 
 We understand that you may want to utilize these phrases when writing for end users, but we encourage you not to.
+
+This is a [link](www.ibm.com) to IBM's site.
+
+Check out this link to the [IBM website](www.ibm.com).
