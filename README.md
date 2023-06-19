@@ -67,6 +67,7 @@ reference.
 ## Ignoring rules
 
 If you find a false positive, please [make an issue](https://github.com/IBM/ibm-quantum-style-guide/issues/new/choose).
+
 If the rule is working correctly but you still want
 to disable it, you can turn specific rules off for
 sections of text using these comments:
@@ -77,6 +78,14 @@ sections of text using these comments:
 This text will not trigger RuleName
 
 <!-- vale IBMQuantum.RuleName = YES -->
+```
+
+If the rule isn't appropriate for your repo, you can
+disable it everywhere by adding this line to your
+`.vale.ini`:
+
+```ini
+IBMQuantum.RuleName = NO
 ```
 
 
