@@ -2,6 +2,7 @@ Abelian
 Abhinav
 Aer
 Akira
+Alain
 Amyra
 Andersson
 Andriyash
@@ -56,6 +57,7 @@ Greenberger
 Griffiths
 Gutmann
 Hadamard
+Hadamards
 Haide
 Hamiltonian
 Hamiltonians
@@ -88,6 +90,7 @@ Leib
 Litinski
 Liu
 Lorenza
+Lov
 Lucchi
 Lukasz
 Maika
@@ -202,6 +205,9 @@ minimax
 misclassifying
 multilinear
 namespace
+nonlinearly
+nonlocal
+nonlocality
 nucleobase
 orthogonalization
 orthonormality
@@ -243,3 +249,4 @@ transpiling
 tridiagonal
 trits
 unitaries
+untrusted
