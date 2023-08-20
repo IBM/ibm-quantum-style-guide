@@ -18,6 +18,7 @@ Bergholm
 Bernagozzi
 Bertels
 Bertet
+Bluemix
 Boeblingen
 Boixo
 Boulant
@@ -57,7 +58,6 @@ Greenberger
 Griffiths
 Gutmann
 Hadamard
-Hadamards
 Haide
 Hamiltonian
 Hamiltonians
@@ -71,6 +71,7 @@ Hiptmair
 Hoyer
 Hubregtsen
 Ijaz
+Ising
 Iten
 Izaac
 Jakob
@@ -90,7 +91,6 @@ Leib
 Litinski
 Liu
 Lorenza
-Lov
 Lucchi
 Lukasz
 Maika
@@ -157,6 +157,7 @@ Vion
 Vivek
 Vojtech
 Volkoff
+Watrous
 Weedbrook
 Wierichs
 Woerner
@@ -191,9 +192,11 @@ eigensolver
 eigensolvers
 eigenstate
 eigenstates
+enablement
 endian
 exponentials
 expressibility
+extremal
 fanout
 fermionic
 fidelities
@@ -205,15 +208,13 @@ minimax
 misclassifying
 multilinear
 namespace
-nonlinearly
-nonlocal
-nonlocality
 nucleobase
 orthogonalization
 orthonormality
 parameterization
 polynomially
 preprint
+presigned
 priori
 pseudocode
 qiskit
@@ -228,6 +229,7 @@ qutrits
 recalibrated
 reuploading
 satisfiability
+serverless
 simulability
 subfield
 subfields
@@ -237,6 +239,7 @@ substrings
 sudoku
 summand
 summands
+timestep
 tooltip
 tooltips
 transmon
