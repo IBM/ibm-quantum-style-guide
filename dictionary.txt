@@ -2,6 +2,7 @@ Abelian
 Abhinav
 Aer
 Akira
+Alain
 Amyra
 Andersson
 Andriyash
@@ -17,6 +18,7 @@ Bergholm
 Bernagozzi
 Bertels
 Bertet
+Bluemix
 Boeblingen
 Boixo
 Boulant
@@ -69,6 +71,7 @@ Hiptmair
 Hoyer
 Hubregtsen
 Ijaz
+Ising
 Iten
 Izaac
 Jakob
@@ -154,6 +157,7 @@ Vion
 Vivek
 Vojtech
 Volkoff
+Watrous
 Weedbrook
 Wierichs
 Woerner
@@ -188,9 +192,11 @@ eigensolver
 eigensolvers
 eigenstate
 eigenstates
+enablement
 endian
 exponentials
 expressibility
+extremal
 fanout
 fermionic
 fidelities
@@ -208,6 +214,7 @@ orthonormality
 parameterization
 polynomially
 preprint
+presigned
 priori
 pseudocode
 qiskit
@@ -222,6 +229,7 @@ qutrits
 recalibrated
 reuploading
 satisfiability
+serverless
 simulability
 subfield
 subfields
@@ -231,6 +239,7 @@ substrings
 sudoku
 summand
 summands
+timestep
 tooltip
 tooltips
 transmon
@@ -243,3 +252,4 @@ transpiling
 tridiagonal
 trits
 unitaries
+untrusted

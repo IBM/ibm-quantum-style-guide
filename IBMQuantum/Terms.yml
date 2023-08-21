@@ -15,7 +15,6 @@ swap:
   'pop-up (?:blocker|killer)': software to block pop-up ad windows
   're(?:-)?occur': recur
   'sort(?:-|/)?merge': sort|merge
-  'do(?: )(?!not|so)': complete|perform
 
   bottom: end|last
   below: following
@@ -143,6 +142,7 @@ swap:
   secondary storage: auxiliary storage
   selection button: left mouse button
   serial database: nonpartitioned database environment
+  set-up: setup
   shift-click: press Shift and click
   ship: include|included
   Simple Object Access Protocol: SOAP
@@ -162,7 +162,6 @@ swap:
   toggle off: toggle
   tooling: tools
   touchscreen: touch-sensitive screen
-  transition: make the transition|move|migrate|change
   transparent: indiscernible|not visible
   typo: typing error|typographical error
   uncheck: clear
