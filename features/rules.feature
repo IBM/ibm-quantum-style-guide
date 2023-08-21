@@ -6,7 +6,6 @@ Feature: Rules
         """
         test.md:3:13:IBMQuantum.Terms:Use 'end' or 'last' rather than 'bottom'
         test.md:5:11:IBMQuantum.Terms:Use 'several' rather than 'a number of'
-        test.md:7:9:IBMQuantum.Terms:Use 'complete' or 'perform' rather than 'do'
         test.md:11:10:IBMQuantum.Spelling:Unknown word 'algorihm'; fix or add to dictionary.
         test.md:15:24:IBMQuantum.Terms:Use 'following' rather than 'below'
         test.md:19:29:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
