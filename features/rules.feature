@@ -34,7 +34,6 @@ Feature: Rules
         When I test "Latin"
         Then the output should contain exactly:
         """
-        test.md:1:21:IBMQuantum.Latin:Use 'through' instead of 'via'.
         test.md:3:10:IBMQuantum.Latin:Use 'and so on' instead of 'etc.'.
         test.md:5:31:IBMQuantum.Latin:Use 'that is' instead of 'i.e.,'.
         test.md:7:6:IBMQuantum.Latin:Use 'compared to' instead of 'vs.'.
