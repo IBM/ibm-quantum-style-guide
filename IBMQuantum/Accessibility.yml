@@ -9,7 +9,7 @@ action:
 swap:
   'down(?:-)?level': earlier|previous|not at the latest level
   'down(?:-)?level': earlier|previous|not at the latest level
-  bottom: end|last
-  below: following
   above: previous
+  below: following
+  bottom: end|last
   top: start|beginning|first

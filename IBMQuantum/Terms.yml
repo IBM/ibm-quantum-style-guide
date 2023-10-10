@@ -12,6 +12,8 @@ swap:
   'pop-up (?:blocker|killer)': software to block pop-up ad windows  
   're(?:-)?occur': recur  
   'sort(?:-|/)?merge': sort|merge  
+  CRUD: create retrieve update and delete  
+  EUI: graphical user interface|interface  
   abort: cancel|stop  
   administrate: administer  
   all caps: uppercase  
@@ -23,7 +25,6 @@ swap:
   componentization: component-based development|component model|component architecture|shared components  
   componentize: develop components  
   crash: fail|lock up|stop|stop responding  
-  CRUD: create retrieve update and delete  
   customer: client  
   datum: data  
   debuggable: debug  
@@ -41,7 +42,6 @@ swap:
   eFix: fix|interim fix  
   end user: user  
   end-user interface: graphical interface|interface  
-  EUI: graphical user interface|interface  
   expose: display|show|make available  
   flavor: version|method  
   forward compatible: compatible with later versions  
