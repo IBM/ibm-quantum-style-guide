@@ -2,7 +2,9 @@
 
 This repo contains [Vale](https://vale.sh)-compatible rules implementing the
 IBM Quantum style guide. Use these rules with Vale to help keep your writing
-consistent with our style suggestions.
+consistent with our style suggestions. These rules are based on the [IBM style
+guide](https://ibmdocs-test.dcs.ibm.com/docs/en/ibm-style), with extra rules
+specific to quantum computing.
 
 
 ## Using Vale in your repo
