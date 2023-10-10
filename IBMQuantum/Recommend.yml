@@ -1,5 +1,8 @@
 extends: existence
-message: "Avoid '%s'. Instead, describe why the action is problematic or beneficial."
+message: >
+  Avoid '%s' if writing about performance, benefits, or future support that
+  could create marketing or legal problems for IBM. Instead, describe why the
+  action is problematic or beneficial.
 link: 'https://ibmdocs-test.dcs.ibm.com/docs/en/ibm-style?topic=information-claims-recommendations'
 ignorecase: true
 scope: sentence
