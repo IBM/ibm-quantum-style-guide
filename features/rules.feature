@@ -16,6 +16,7 @@ Feature: Rules
         test.md:27:75:IBMQuantum.BestPractice:Don't use 'end users'
         test.md:27:90:IBMQuantum.BestPractice:Don't use 'we encourage you'
         test.md:29:12:IBMQuantum.Links:Link names should make sense without context; change "link" to something more descriptive.
+        test.md:33:31:IBMQuantum.Terms:Use 'quasi-probability distribution' rather than 'quasiprobabilities' for consistency across IBM Quantum.
         """
 
     Scenario: Use of punctuation
