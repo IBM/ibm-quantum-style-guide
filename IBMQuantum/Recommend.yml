@@ -1,8 +1,9 @@
 extends: existence
-message: "Don't use '%s'; we should not recommend to users."
-link: 'https://github.com/IBM/ibm-quantum-style-guide/issues/22' # TODO
+message: "Avoid '%s'. Instead, describe why the action is problematic or beneficial."
+link: 'https://ibmdocs-test.dcs.ibm.com/docs/en/ibm-style?topic=information-claims-recommendations'
 ignorecase: true
 scope: sentence
 level: warning
 tokens:
   - recommend
+  - recommended
