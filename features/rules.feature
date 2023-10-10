@@ -4,17 +4,17 @@ Feature: Rules
         When I test "Terms"
         Then the output should contain exactly:
         """
-        test.md:3:13:IBMQuantum.Terms:Use 'end' or 'last' rather than 'bottom'
-        test.md:5:11:IBMQuantum.Terms:Use 'several' rather than 'a number of'
+        test.md:3:13:IBMQuantum.Accessibility:Use 'end' or 'last' rather than 'bottom' if referring to position in a document (for screen readers).
+        test.md:5:11:IBMQuantum.Wordiness:Try 'several' rather than 'a number of'.
         test.md:11:10:IBMQuantum.Spelling:Unknown word 'algorihm'; fix or add to dictionary.
-        test.md:15:24:IBMQuantum.Terms:Use 'following' rather than 'below'
+        test.md:15:24:IBMQuantum.Accessibility:Use 'following' rather than 'below' if referring to position in a document (for screen readers).
         test.md:19:29:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         test.md:23:16:IBMQuantum.However:Double-check your punctuation around 'however' (see github.com/IBM/ibm-quantum-style-guide/issues/10 for more information).
         test.md:25:1:IBMQuantum.Politeness:Don't use 'Please'
-        test.md:27:1:IBMQuantum.CringeWords:Don't use 'We understand that'
-        test.md:27:36:IBMQuantum.Terms:Use 'use' rather than 'utilize'
-        test.md:27:75:IBMQuantum.CringeWords:Don't use 'end users'
-        test.md:27:90:IBMQuantum.CringeWords:Don't use 'we encourage you'
+        test.md:27:1:IBMQuantum.BestPractice:Don't use 'We understand that'
+        test.md:27:36:IBMQuantum.Wordiness:Try 'use' rather than 'utilize'.
+        test.md:27:75:IBMQuantum.BestPractice:Don't use 'end users'
+        test.md:27:90:IBMQuantum.BestPractice:Don't use 'we encourage you'
         test.md:29:12:IBMQuantum.Links:Link names should make sense without context; change "link" to something more descriptive.
         """
 
@@ -33,9 +33,10 @@ Feature: Rules
         When I test "Latin"
         Then the output should contain exactly:
         """
+        test.md:1:21:IBMQuantum.Latin:Use 'through' instead of 'via'.
         test.md:3:10:IBMQuantum.Latin:Use 'and so on' instead of 'etc.'.
         test.md:5:31:IBMQuantum.Latin:Use 'that is' instead of 'i.e.,'.
-        test.md:7:6:IBMQuantum.Latin:Use 'versus' instead of 'vs.'.
+        test.md:7:6:IBMQuantum.Latin:Use 'compared to' instead of 'vs.'.
         """
 
     Scenario: Capitalization

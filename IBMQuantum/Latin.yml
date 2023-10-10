@@ -10,4 +10,6 @@ swap:
   '\b(?:eg|e\.g\.)[\s,]': for example
   '\b(?:ie|i\.e\.)[\s,]': that is
   '\betc\.': and so on
-  '\bvs\.': versus
+  '\bvs\.': compared to
+  via: through
+  versus: compared to
