@@ -1,6 +1,6 @@
 extends: substitution
 message: Use '%s' rather than '%s' for consistency across IBM Quantum.
-link: 'https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist'
+link: 'https://ibmdocs-test.dcs.ibm.com/docs/en/ibm-style?topic=word-usage'
 level: warning
 ignorecase: true
 action:
@@ -17,12 +17,11 @@ swap:
   all caps: uppercase  
   and/or: a or b|a, b, or both  
   as per: according to|as|as in  
-  case insensitive: not case-sensitive  
+  case insensitive: case-insensitive  
   catastrophic error: unrecoverable error  
   comes with: includes  
   componentization: component-based development|component model|component architecture|shared components  
   componentize: develop components  
-  connect with: connect to  
   crash: fail|lock up|stop|stop responding  
   CRUD: create retrieve update and delete  
   customer: client  

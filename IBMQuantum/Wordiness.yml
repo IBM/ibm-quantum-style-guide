@@ -1,6 +1,6 @@
 extends: substitution
 message: Try '%s' rather than '%s'.
-link: 'https://www.ibm.com/developerworks/library/styleguidelines/index.html#wordlist'
+link: 'https://ibmdocs-test.dcs.ibm.com/docs/en/ibm-style?topic=word-usage'
 level: warning
 ignorecase: true
 action:
