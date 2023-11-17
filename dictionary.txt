@@ -30,6 +30,7 @@ CNOTs
 Carleo
 Carrera
 Cerezo
+CHSH
 Chuang
 Cincio
 Clauser
